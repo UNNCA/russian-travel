@@ -1,0 +1,25 @@
+.footer__copyright {
+    min-height: 16px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: right;
+    color: #FFFFFF;
+    display:inline;
+    margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__copyright {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 14px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-self: start;
+        padding-top: 48px;
+    }
+}

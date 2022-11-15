@@ -1,0 +1,31 @@
+.cover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-width: 1184px;
+    padding-top: 92px;
+    object-fit: contain;
+    grid-area: caver;
+}
+
+@media screen and (max-width: 1280px) {
+    .cover {
+        min-width: 1024px;
+        min-height: auto;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .cover {
+        min-width: 768px;
+        padding-top: 90px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .cover {
+        min-width: 320px;
+        padding-top: 66px;
+    }
+}

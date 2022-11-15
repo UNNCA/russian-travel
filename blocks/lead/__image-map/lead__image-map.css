@@ -1,0 +1,26 @@
+.lead__image-map {
+    position: absolute;
+    margin: auto;
+    top: 129px;
+    width: 886px;
+}
+
+@media screen and (max-width: 1280px) {
+    .lead__image-map {
+        top: 121px;
+        width: 836px;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lead__image-map {
+        top: 100px;
+        width: 692px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .lead__image-map {
+        top: 42px;
+        width: 288px;
+    }
+}
