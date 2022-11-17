@@ -8,12 +8,14 @@
     width: 984px;
     margin-top: 64px;
     background-size: cover;
+    max-width: 100%;
+    overflow: hidden;
 }
 
 @media screen and (max-width: 1280px) {
     .lead__image {
         height: 580px;
-        width: 928px;
+        max-width: 928px;
         margin-top: 56px;
     }
 }
@@ -21,13 +23,13 @@
 @media screen and (max-width: 1024px) {
     .lead__image {
         height: 480px;
-        width: 748px;
+        width: 768px;
         margin-top: 56px;
         object-fit: contain;
         max-width: 100%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .lead__image {
         height: 200px;
         width: 320px;

@@ -11,7 +11,7 @@
     position: relative;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .cover__title {
         font-weight: 900;
         font-size: 32px;

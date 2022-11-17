@@ -6,28 +6,42 @@
     line-height: 14px;
     letter-spacing: 1.5px;
     text-transform: uppercase;
-    padding-top: 8px;
-    width: 984px;
-    margin: 0;
+    margin: 8px 0 0 0;
+    float: left;
+    min-width: 984px;
+    box-sizing: border-box;
 }
 
 @media screen and (max-width: 1280px) {
     .lead__caption {
-        width: 928px;
-        padding-left: 0;
+        max-width: 928px;
+        min-width: 928px;
+        float: left;
     }
 }
 
 @media screen and (max-width: 1024px) {
     .lead__caption {
-        width: 768px;
+        max-width: 768px;
+        min-width: 768px;
         padding-left: 24px;
+        box-sizing: border-box;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .lead__caption {
         max-width: 320px;
+        min-width: 320px;;
         padding-left: 16px;
+        box-sizing: border-box;
     }
+}
+
+@media screen and (max-width: 320px) {
+    .lead__caption {
+        width: 320px;
+        padding-left: 16px;
+        box-sizing: border-box;
+    }      
 }

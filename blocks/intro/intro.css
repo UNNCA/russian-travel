@@ -14,11 +14,11 @@
 
 @media screen and (max-width: 1024px) {
     .intro{
-        max-width: 748px;
+        max-width: 768px;
         width: 100%;
     }
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .intro{
         max-width: 320px;
         width: 100%;
@@ -29,6 +29,5 @@
     .intro {
         max-width: 320px;
         width: 100%;
-        padding: 24px 0;
     }
 }
