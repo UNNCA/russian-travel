@@ -2,13 +2,13 @@
     padding-top: 88px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1152px) {
     .places__place:not(:first-child) {
         padding-top: 73px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 896px) {
     .places__place:not(:first-child) {
         padding-top: 50px;
     }

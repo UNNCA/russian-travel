@@ -1,34 +1,27 @@
 .intro__text {
-    color: #FFFFFF;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    width: 690px;
     margin: 40px 0 33px 0;
     
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 768px) {
     .intro__text {
-        padding-left: 24px;
-        max-width: 100%;
-        width: 720px;
-        box-sizing: border-box;
+        max-width: 720px;
+
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (min-width: 928px) {
     .intro__text {
-        max-width: 100%;
-        width: 720px;
-        padding-left: 16px;
-        box-sizing: border-box;
+
     }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 984px) {
     .intro__text {
-        width: 288px;
+
     }
 }

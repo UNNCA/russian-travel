@@ -28,21 +28,21 @@
     transition: opacity .2s ease-in-out;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1152px) {
     .cover__background {
         max-width: 1024px;
         min-height: 640px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 896px) {
     .cover__background {
         max-width: 768px;
         min-height: 480px;
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 544px) {
     .cover__background {
         max-width: 320px;
         min-height: 200px;

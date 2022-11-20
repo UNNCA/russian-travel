@@ -1,24 +1,39 @@
 .lead__image-map {
     position: absolute;
     margin: auto;
-    top: 129px;
-    width: 886px;
+    width: 305px;
+    top: 29px;
+    height: auto;
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 768px) {
     .lead__image-map {
-        top: 121px;
-        width: 836px;
+        top: 70px;
+        width: 731px;
     }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (min-width: 928px) {
+    .lead__image-map {
+        top: 85px;
+        width: 884px;
+    }
+}
+
+@media screen and (min-width: 984px) {
+    .lead__image-map {
+        top: 90px;
+        width: 937px;
+    }
+}
+
+/*@media screen and (max-width: 1152px) {
     .lead__image-map {
         top: 100px;
         width: 692px;
     }
 }
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 896px) {
     .lead__image-map {
         top: 42px;
         width: 288px;
