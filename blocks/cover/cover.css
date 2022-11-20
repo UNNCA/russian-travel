@@ -3,29 +3,9 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    min-width: 1184px;
+    min-width: 320px;
+    width: 100%;
     padding-top: 92px;
     object-fit: contain;
     grid-area: caver;
-}
-
-@media screen and (max-width: 1152px) {
-    .cover {
-        min-width: 1024px;
-        min-height: auto;
-    }
-}
-
-@media screen and (max-width: 896px) {
-    .cover {
-        min-width: 768px;
-        padding-top: 90px;
-    }
-}
-
-@media screen and (max-width: 544px) {
-    .cover {
-        min-width: 320px;
-        padding-top: 66px;
-    }
 }

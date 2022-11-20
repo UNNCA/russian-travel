@@ -3,13 +3,17 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    max-width: 1184px;
-    min-height: 740px;
-    background-size: cover;
+    min-height: auto;
     text-decoration: none;
     background-image: url(../../../images/__background.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
     position: relative;
     width: 100%;
+    height: auto;
+    height: 100%;
+    object-fit: contain;
+    background-position: center;
 }
 
 .cover__background::before {
@@ -28,23 +32,10 @@
     transition: opacity .2s ease-in-out;
 }
 
-@media screen and (max-width: 1152px) {
+@media screen and (min-width: 1205px) {
     .cover__background {
-        max-width: 1024px;
-        min-height: 640px;
-    }
-}
+    height: 740px;
+    max-width: 1184px;
 
-@media screen and (max-width: 896px) {
-    .cover__background {
-        max-width: 768px;
-        min-height: 480px;
-    }
-}
-
-@media screen and (max-width: 544px) {
-    .cover__background {
-        max-width: 320px;
-        min-height: 200px;
     }
 }
