@@ -20,8 +20,3 @@
         line-height: 76px;
     }
 }
-
-@media screen and (min-width: 984px) {
-    .place__title {
-    }
-}

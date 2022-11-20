@@ -34,26 +34,3 @@
         margin-top: 60px;
     }
 }
-
-
-
-/*
-.lead__image {
-
-    margin-top: 56px;
-}
-
-@media screen and (max-width: 1152px) {
-    .lead__image {
-
-        margin-top: 56px;
-        object-fit: contain;
-        max-width: 100%;
-    }
-}
-@media screen and (max-width: 896px) {
-    .lead__image {
-
-        margin-top: 40px;
-    }
-}

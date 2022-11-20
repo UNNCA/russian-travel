@@ -26,16 +26,3 @@
         width: 937px;
     }
 }
-
-/*@media screen and (max-width: 1152px) {
-    .lead__image-map {
-        top: 100px;
-        width: 692px;
-    }
-}
-@media screen and (max-width: 896px) {
-    .lead__image-map {
-        top: 42px;
-        width: 288px;
-    }
-}

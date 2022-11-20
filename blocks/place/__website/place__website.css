@@ -10,15 +10,3 @@
         min-width: 228px;
     }
 }
-
-@media screen and (min-width: 928px) {
-    .place__website {
-
-    }
-}
-
-@media screen and (min-width: 984px) {
-    .place__website {
-
-    }
-}

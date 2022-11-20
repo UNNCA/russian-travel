@@ -26,11 +26,15 @@
         }  
     }
 
-    @media screen and (min-width: 1184px) {
+    @media screen and (min-width: 1280px) {
         .photo-grid {
             display: grid;
+            justify-content: space-evenly;
             grid-template-columns: repeat(4, 284px);
             grid-template-rows: repeat(3, 213px);
             gap: 16px;
+            width: 1184px;
+            box-sizing: border-box;
+            padding: 0 24px;
         }  
     }
